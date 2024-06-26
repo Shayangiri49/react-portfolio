@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaArrowDown,
 } from "react-icons/fa";
-import avatar from "../assets/avatar.jpg";
+import avatar from "../assets/WhatsApp Image 2024-06-26 at 22.14.45_e6c99b52.jpg";
 
 const Hero = () => {
   const SOCIAL = [
