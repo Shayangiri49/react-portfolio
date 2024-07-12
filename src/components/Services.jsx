@@ -1,41 +1,53 @@
 import React from "react";
 import Section from "./common/Section";
 
-import commerce from "../assets/commerce.png";
-import research from "../assets/research.png";
-import web from "../assets/web.png";
-import mobile from "../assets/mobile.png";
+import html from "../assets/html.jpg";
+import reactjs from "../assets/reactjs.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import tailwindcss from "../assets/tailwindcss.png";
+import bootstrap from "../assets/bootstrap.png";
 
 const Services = () => {
   const services = [
     {
       id: 1,
-      image: commerce,
-      title: "Ecommerce Website",
+      image: html,
+      title: "HTML",
     },
     {
       id: 2,
-      image: web,
-      title: "Web Development",
+      image: css,
+      title: "CSS",
     },
     {
       id: 3,
-      image: mobile,
-      title: "Mobile Development",
+      image: javascript,
+      title: "JAVASCRIPT",
     },
     {
       id: 4,
-      image: research,
-      title: "Research & Development",
+      image: reactjs,
+      title: "REACTJS",
+    },
+    {
+      id: 4,
+      image: tailwindcss,
+      title: "TAILWIND CSS",
+    },
+    {
+      id: 4,
+      image: bootstrap,
+      title: "BOOTSTRAP",
     },
   ];
 
   return (
     <Section
-      title="Services"
-      subtitle="Here are all the services that I provide to my Clients. I hope I offer the service that you are looking for. If you don't find something that you are looking for than please send me a email"
+      title="Skills"
+      subtitle="Here are all the skills that I have. I hope I have the skills that you are looking for."
     >
-      <div className="grid gap-10 lg:grid-cols-2">
+      <div className="grid gap-10 lg:grid-cols-3 sm:grid-cols-2 max-[500px]:grid-cols-2">
         {services.map(({ id, image, title }) => (
           <div
             key={id}
