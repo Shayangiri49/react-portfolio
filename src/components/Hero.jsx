@@ -77,7 +77,7 @@ const Hero = () => {
           className="w-60 h-60 md:w-82 md:h-82  object-cover bg-gradient-to-b from-rose-600 rounded-xl"
         />
         <a
-          href="/Shayan-resume.pdfs"
+          href="/Shayan-resume.pdf"
           download={true}
           className="flex items-center justify-center mt-8 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg"
         >
