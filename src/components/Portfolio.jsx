@@ -15,9 +15,9 @@ const Portfolio = () => {
     {
       id: 1,
       image: p1,
-      title: "My-React-Website",
-      github: "https://github.com/Shayangiri49/My-React-Website",
-      demo: "https://shayanreactwebsite.netlify.app",
+      title: "React-Weather-App",
+      github: "https://github.com/Shayangiri49/React-weather-app",
+      demo: "https://react-weather-app-rosy-omega.vercel.app/",
     },
     {
       id: 2,
