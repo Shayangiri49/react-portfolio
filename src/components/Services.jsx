@@ -7,6 +7,9 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import tailwindcss from "../assets/tailwindcss.png";
 import bootstrap from "../assets/bootstrap.png";
+import typescript from "../assets/Typescript.png"
+import nextjs from "../assets/nextjs.webp"
+import redux from "../assets/redux.webp"
 
 const Services = () => {
   const services = [
@@ -26,9 +29,24 @@ const Services = () => {
       title: "JAVASCRIPT",
     },
     {
+      id: 3,
+      image: typescript,
+      title: "TYPESCRIPT",
+    },
+    {
       id: 4,
       image: reactjs,
       title: "REACTJS",
+    },
+    {
+      id: 4,
+      image: redux,
+      title: "REDUX",
+    },
+    {
+      id: 4,
+      image: nextjs,
+      title: "NEXTJS",
     },
     {
       id: 4,
